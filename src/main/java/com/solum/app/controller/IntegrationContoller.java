@@ -24,6 +24,7 @@ public class IntegrationContoller {
 		
 	}
 
+	/* Step 1/7 */
 	@PostMapping("/product")
 	public String ingestionProduct(@RequestBody Product product) {
 		return integrationGateway.processProduct(product);

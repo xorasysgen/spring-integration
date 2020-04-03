@@ -21,6 +21,7 @@ public class IntegrationService {
 		replyChannel.send(mbMessage);
 	}
 
+	/* Step 5/7 */
 	@ServiceActivator(inputChannel = "message.gateway.channel.product.ObjectToJson", outputChannel = "message.gateway.channel.product.JsonToObject")
 	public Message<?> receivedMessage(Message<?> message) {
 		System.out.println("::::::ObjectToJson:::::");
@@ -29,6 +30,7 @@ public class IntegrationService {
 		return message;
 	}
 	
+	/* Step 7/7 */
 	@ServiceActivator(inputChannel = "message.gateway.channel.product.FromTransformer.returnedchannel")
 	public void processedProduct(Message<?> message) {
 		System.out.println("::::::JsonToObject:::::");

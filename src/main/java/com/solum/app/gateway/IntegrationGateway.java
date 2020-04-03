@@ -11,6 +11,7 @@ public interface IntegrationGateway {
 	@Gateway(requestChannel = "message.gateway.channel.message")
 	public String sendMessage(String message);
 	
+	/* Step 2/7 */
 	@Gateway(requestChannel = "message.gateway.channel.product")
 	public String processProduct(Product product);
 }

@@ -36,8 +36,8 @@ public class SpringIntegeration {
 		return new DirectChannel();
 	}
 
-	// Transformer
-
+	// Transformers
+	/* Step 3/7 */
 	@Bean
 	@Transformer(inputChannel = "message.gateway.channel.product", outputChannel = "message.gateway.channel.product.HeaderEnricher")
 	public HeaderEnricher enrichHeader() {
@@ -48,6 +48,7 @@ public class SpringIntegeration {
 		return enricher;
 	}
 
+	/* Step 4/7 */
 	@Bean
 	@Transformer(inputChannel = "message.gateway.channel.product.HeaderEnricher", outputChannel = "message.gateway.channel.product.ObjectToJson")
 	public ObjectToJsonTransformer objectToJsonTransformer() {
@@ -60,6 +61,7 @@ public class SpringIntegeration {
 		return new Jackson2JsonObjectMapper(mapper);
 	}
 
+	/* Step 6/7 */
 	@Bean
 	@Transformer(inputChannel = "message.gateway.channel.product.JsonToObject", outputChannel = "message.gateway.channel.product.FromTransformer.returnedchannel")
 	JsonToObjectTransformer jsonToObjectTransformer() {
