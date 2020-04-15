@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "server.shutdown.grace-period",
+      "type": "java.lang.String",
+      "description": "Description for server.shutdown.grace-period."
+  }
+] }
