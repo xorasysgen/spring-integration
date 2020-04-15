@@ -1,13 +1,18 @@
 package com.solum.app.logic;
 
+import java.io.Serializable;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
 @PropertySource("classpath:env.properties")
-public class Env {
+public class Env  implements Serializable{
 	
+	private static final long serialVersionUID = 1L;
+
 	@Value("${init.gracefulshutdown.timeout}")
 	private Integer TIMEOUT;
 	
@@ -58,6 +63,13 @@ public class Env {
 
 	public String getMessage_1_5() {
 		return message_1_5;
+	}
+
+	@Override
+	public String toString() {
+		return "Env [TIMEOUT=" + TIMEOUT + ", message=" + message + ", message_1_1=" + message_1_1 + ", message_1_2="
+				+ message_1_2 + ", message_1_3=" + message_1_3 + ", message_1_4=" + message_1_4 + ", message_1_5="
+				+ message_1_5 + "]";
 	}
 
 	

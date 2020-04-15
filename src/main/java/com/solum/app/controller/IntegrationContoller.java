@@ -6,24 +6,21 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
 import javax.annotation.PreDestroy;
-import javax.management.RuntimeErrorException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.server.ResponseStatusException;
 
 import com.solum.app.dto.Product;
+import com.solum.app.exception.CommonException;
 import com.solum.app.gateway.IntegrationGateway;
+import com.solum.app.logic.Env;
 
 @RestController
 @RequestMapping("/message")
@@ -32,6 +29,8 @@ public class IntegrationContoller {
 	@Autowired
 	private IntegrationGateway integrationGateway;
 
+	@Autowired
+	private Env env;
 	// Thread Pool which runs some tasks
 	ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(10);
 
@@ -40,18 +39,14 @@ public class IntegrationContoller {
 	
 	
 	@GetMapping("/long-process")
-	@ResponseBody
-    public ResponseEntity<String> pause()  {
+    public String pause()  {
         try {
-			//Thread.sleep(50000);
-			throw new RuntimeException("Hi");
-		} catch (Exception e) {
-			throw new ResponseStatusException(
-			           HttpStatus.SERVICE_UNAVAILABLE, "Server forcefully shutdown",e);
+			Thread.sleep(20000);
+		} catch (InterruptedException e) {
+			throw new CommonException("SERVICE_UNAVAILABLE, Server forcefully shutdown");
 		}
-       // return "Eventhough commencing graceful shutdown  init,Process finished successfully";
-   // return null;
-	}
+       return "Even Though commencing graceful shutdown initiated, Process finished successfully..";
+    }
 	
 	@GetMapping("/task")
 	public String hello() throws InterruptedException {
@@ -77,9 +72,9 @@ public class IntegrationContoller {
 
 	@PreDestroy
 	public void destroy() {
-		System.out.println("Triggered PreDestroy");
+		System.out.println("PreDestroy Method Triggered.");
 		
-		System.out.println("Completed all active threads");
+		System.out.println("|||Pending active thread task completed|||");
 	}
 
 
@@ -106,6 +101,14 @@ public class IntegrationContoller {
 
 	public void setIntegrationGateway(IntegrationGateway integrationGateway) {
 		this.integrationGateway = integrationGateway;
+	}
+
+	public Env getEnv() {
+		return env;
+	}
+
+	public void setEnv(Env env) {
+		this.env = env;
 	}
 
 }
