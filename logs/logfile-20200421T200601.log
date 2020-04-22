@@ -1,0 +1,9 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 20:06:01.268 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:06:01.270 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 20:06:01.449 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:06:01.458 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:06:01.802 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.375 seconds (JVM running for 91.617)
+2020-04-21 | 20:07:16.269 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:07:16.279 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed

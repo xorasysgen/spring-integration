@@ -1,0 +1,10 @@
+#logback.classic pattern: %msg%n
+#logback.classic pattern: %msg%n
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10152 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 1.544 seconds (JVM running for 2.244)
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed

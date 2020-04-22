@@ -1,0 +1,6 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 19:45:08.579 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 724 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:45:08.579 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:45:08.959 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.446 seconds (JVM running for 273.216)
+2020-04-21 | 19:45:33.944 [RMI TCP Connection(3)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:46:03.945 [RMI TCP Connection(3)-127.0.0.1] WARN  c.s.app.logic.InitGracefulShutdown | Tomcat could not shutdown gracefully within 30 seconds. Proceeding with forceful shutdown

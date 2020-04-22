@@ -1,0 +1,57 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-22 | 10:38:46.505 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 20624 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-22 | 10:38:46.520 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-22 | 10:38:46.520 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-22 | 10:38:47.822 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 1.589 seconds (JVM running for 2.825)
+2020-04-22 | 10:39:01.239 [http-nio-8181-exec-1] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:39:01.240 [http-nio-8181-exec-1] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:39:01.240 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:39:01.241 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:39:01.241 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:39:40.401 [http-nio-8181-exec-3] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:39:40.402 [http-nio-8181-exec-3] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:39:40.402 [http-nio-8181-exec-3] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:39:40.403 [http-nio-8181-exec-3] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:39:40.403 [http-nio-8181-exec-3] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:15.519 [http-nio-8181-exec-5] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:15.521 [http-nio-8181-exec-5] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:15.521 [http-nio-8181-exec-5] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:15.522 [http-nio-8181-exec-5] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:15.522 [http-nio-8181-exec-5] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:16.211 [http-nio-8181-exec-6] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:16.212 [http-nio-8181-exec-6] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:16.212 [http-nio-8181-exec-6] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:16.213 [http-nio-8181-exec-6] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:16.214 [http-nio-8181-exec-6] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:16.365 [http-nio-8181-exec-7] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:16.366 [http-nio-8181-exec-7] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:16.366 [http-nio-8181-exec-7] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:16.366 [http-nio-8181-exec-7] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:16.367 [http-nio-8181-exec-7] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:16.571 [http-nio-8181-exec-8] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:16.572 [http-nio-8181-exec-8] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:16.573 [http-nio-8181-exec-8] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:16.574 [http-nio-8181-exec-8] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:16.574 [http-nio-8181-exec-8] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:16.740 [http-nio-8181-exec-9] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:16.740 [http-nio-8181-exec-9] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:16.741 [http-nio-8181-exec-9] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:16.741 [http-nio-8181-exec-9] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:16.741 [http-nio-8181-exec-9] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:16.922 [http-nio-8181-exec-10] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:16.923 [http-nio-8181-exec-10] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:16.924 [http-nio-8181-exec-10] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:16.924 [http-nio-8181-exec-10] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:16.925 [http-nio-8181-exec-10] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:17.061 [http-nio-8181-exec-1] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:17.061 [http-nio-8181-exec-1] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:17.061 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:17.062 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:17.062 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:40:17.278 [http-nio-8181-exec-2] TRACE c.s.a.c.IntegrationContoller | This is a TRACE message.
+2020-04-22 | 10:40:17.279 [http-nio-8181-exec-2] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 10:40:17.280 [http-nio-8181-exec-2] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 10:40:17.281 [http-nio-8181-exec-2] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 10:40:17.281 [http-nio-8181-exec-2] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 10:41:26.034 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-22 | 10:41:26.035 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed

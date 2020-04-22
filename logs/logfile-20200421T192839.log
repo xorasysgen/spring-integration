@@ -1,0 +1,9 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 19:28:39.212 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:28:39.212 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:28:39.479 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.294 seconds (JVM running for 978.11)
+2020-04-21 | 19:28:48.908 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 19:28:48.923 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 19:28:48.924 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 19:37:23.313 [RMI TCP Connection(4)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:37:53.314 [RMI TCP Connection(4)-127.0.0.1] WARN  c.s.app.logic.InitGracefulShutdown | Tomcat could not shutdown gracefully within 30 seconds. Proceeding with forceful shutdown

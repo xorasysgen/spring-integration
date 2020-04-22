@@ -1,0 +1,3 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 19:56:06.932 [Thread-24] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:56:06.934 [Thread-24] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed

@@ -1,0 +1,158 @@
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10152 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 1.544 seconds (JVM running for 2.244)
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10152 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.356 seconds (JVM running for 190.989)
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10152 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.309 seconds (JVM running for 264.385)
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10152 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.301 seconds (JVM running for 381.87)
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 1.517 seconds (JVM running for 2.191)
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.441 seconds (JVM running for 589.691)
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.365 seconds (JVM running for 696.092)
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+No active profile set, falling back to default profiles: default
+Started SpringMessagingApplication in 0.402 seconds (JVM running for 918.678)
+This is an INFO message.
+This is a WARN message.
+You guessed it, an ERROR message.
+Commencing graceful shutdown, allowing up to 30s for active requests to complete
+Graceful shutdown completed
+2020-04-21 | 19:28:39.212 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5800 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:28:39.212 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:28:39.479 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.294 seconds (JVM running for 978.11)
+2020-04-21 | 19:28:48.908 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 19:28:48.923 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 19:28:48.924 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 19:37:23.313 [RMI TCP Connection(4)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:37:53.314 [RMI TCP Connection(4)-127.0.0.1] WARN  c.s.app.logic.InitGracefulShutdown | Tomcat could not shutdown gracefully within 30 seconds. Proceeding with forceful shutdown
+2020-04-21 | 19:40:36.902 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 724 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:40:36.904 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:40:38.269 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 1.664 seconds (JVM running for 2.494)
+2020-04-21 | 19:41:55.562 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:41:55.564 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:41:55.736 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 724 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:41:55.736 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:41:56.125 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.414 seconds (JVM running for 80.359)
+2020-04-21 | 19:42:17.031 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:42:17.043 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:45:08.579 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 724 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:45:08.579 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:45:08.959 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.446 seconds (JVM running for 273.216)
+2020-04-21 | 19:45:33.944 [RMI TCP Connection(3)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:46:03.945 [RMI TCP Connection(3)-127.0.0.1] WARN  c.s.app.logic.InitGracefulShutdown | Tomcat could not shutdown gracefully within 30 seconds. Proceeding with forceful shutdown
+2020-04-21 | 19:46:59.430 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 3596 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:46:59.432 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:47:01.204 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 2.095 seconds (JVM running for 2.867)
+2020-04-21 | 19:50:03.114 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:50:03.126 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:50:03.346 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 3596 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:50:03.346 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:50:03.879 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.557 seconds (JVM running for 185.564)
+2020-04-21 | 19:50:24.909 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:50:24.932 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:50:25.217 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 3596 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:50:25.217 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:50:25.496 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.299 seconds (JVM running for 207.182)
+2020-04-21 | 19:52:40.752 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 19:52:40.755 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 19:52:40.755 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 19:55:06.281 [Thread-18] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:55:06.283 [Thread-18] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:55:06.459 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 3596 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:55:06.460 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:55:06.759 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.322 seconds (JVM running for 488.479)
+2020-04-21 | 19:55:37.268 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 19:55:37.283 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 19:55:37.283 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 19:56:06.932 [Thread-24] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:56:06.934 [Thread-24] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 19:56:07.082 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 3596 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 19:56:07.082 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 19:56:07.359 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.3 seconds (JVM running for 549.087)
+2020-04-21 | 19:57:24.662 [Thread-31] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 19:57:24.676 [Thread-31] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:04:31.094 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:04:31.096 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:04:32.762 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 1.88 seconds (JVM running for 2.574)
+2020-04-21 | 20:04:59.260 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 20:04:59.271 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 20:04:59.271 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 20:06:01.268 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:06:01.270 [Thread-9] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:06:01.449 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:06:01.458 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:06:01.802 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.375 seconds (JVM running for 91.617)
+2020-04-21 | 20:07:16.269 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:07:16.279 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:07:16.569 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:07:16.569 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-21 | 20:07:16.569 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:07:16.885 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.342 seconds (JVM running for 166.704)
+2020-04-21 | 20:07:21.648 [http-nio-8181-exec-1] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-21 | 20:07:21.653 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 20:07:21.653 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 20:07:21.653 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 20:07:49.030 [Thread-19] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:07:49.034 [Thread-19] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:07:50.229 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 20:07:50.231 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-21 | 20:10:55.843 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:10:55.843 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-21 | 20:10:55.843 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:10:56.182 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.358 seconds (JVM running for 386.013)
+2020-04-21 | 20:14:56.683 [Thread-37] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:14:56.685 [Thread-37] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:14:56.809 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:14:56.810 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-21 | 20:14:56.810 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:14:57.097 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.309 seconds (JVM running for 626.94)
+2020-04-21 | 20:15:20.826 [Thread-43] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:15:20.828 [Thread-43] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:15:20.934 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:15:20.934 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-21 | 20:15:20.934 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:15:21.200 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.286 seconds (JVM running for 651.045)
+2020-04-21 | 20:16:15.305 [Thread-49] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:16:15.311 [Thread-49] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed
+2020-04-21 | 20:16:15.524 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:16:15.524 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-21 | 20:16:15.524 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:16:15.809 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 0.302 seconds (JVM running for 705.656)
+2020-04-21 | 20:16:35.279 [RMI TCP Connection(4)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-21 | 20:16:35.286 [RMI TCP Connection(4)-127.0.0.1] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed

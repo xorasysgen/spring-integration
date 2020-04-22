@@ -1,0 +1,35 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-22 | 09:18:56.081 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 5924 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-22 | 09:18:56.082 [restartedMain] DEBUG c.s.app.SpringMessagingApplication | Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-22 | 09:18:56.083 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-22 | 09:18:57.760 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 2.018 seconds (JVM running for 3.458)
+2020-04-22 | 09:19:42.722 [http-nio-8181-exec-1] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:19:42.722 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:19:42.722 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:19:42.722 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:26.389 [http-nio-8181-exec-5] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:26.391 [http-nio-8181-exec-5] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:26.393 [http-nio-8181-exec-5] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:26.393 [http-nio-8181-exec-5] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:27.082 [http-nio-8181-exec-7] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:27.082 [http-nio-8181-exec-7] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:27.083 [http-nio-8181-exec-7] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:27.083 [http-nio-8181-exec-7] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:27.436 [http-nio-8181-exec-6] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:27.437 [http-nio-8181-exec-6] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:27.437 [http-nio-8181-exec-6] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:27.437 [http-nio-8181-exec-6] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:27.638 [http-nio-8181-exec-8] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:27.639 [http-nio-8181-exec-8] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:27.640 [http-nio-8181-exec-8] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:27.640 [http-nio-8181-exec-8] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:27.982 [http-nio-8181-exec-9] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:27.983 [http-nio-8181-exec-9] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:27.983 [http-nio-8181-exec-9] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:27.984 [http-nio-8181-exec-9] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:24:28.198 [http-nio-8181-exec-10] DEBUG c.s.a.c.IntegrationContoller | This is a DEBUG message.
+2020-04-22 | 09:24:28.199 [http-nio-8181-exec-10] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-22 | 09:24:28.199 [http-nio-8181-exec-10] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-22 | 09:24:28.200 [http-nio-8181-exec-10] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.
+2020-04-22 | 09:25:40.171 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Commencing graceful shutdown, allowing up to 30s for active requests to complete
+2020-04-22 | 09:25:40.173 [Thread-12] INFO  c.s.app.logic.InitGracefulShutdown | Graceful shutdown completed

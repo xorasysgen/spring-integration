@@ -1,0 +1,7 @@
+#logback.classic pattern: %d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n
+2020-04-21 | 20:04:31.094 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Starting SpringMessagingApplication on DESKTOP-OGS95GR with PID 10584 (D:\Solum\spring-integration\target\classes started by solum20 in D:\Solum\spring-integration)
+2020-04-21 | 20:04:31.096 [restartedMain] INFO  c.s.app.SpringMessagingApplication | No active profile set, falling back to default profiles: default
+2020-04-21 | 20:04:32.762 [restartedMain] INFO  c.s.app.SpringMessagingApplication | Started SpringMessagingApplication in 1.88 seconds (JVM running for 2.574)
+2020-04-21 | 20:04:59.260 [http-nio-8181-exec-1] INFO  c.s.a.c.IntegrationContoller | This is an INFO message.
+2020-04-21 | 20:04:59.271 [http-nio-8181-exec-1] WARN  c.s.a.c.IntegrationContoller | This is a WARN message.
+2020-04-21 | 20:04:59.271 [http-nio-8181-exec-1] ERROR c.s.a.c.IntegrationContoller | You guessed it, an ERROR message.

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true" scan="true" scanPeriod="30 seconds">
+    <property name="LOG_PATH" value="logs" />
+    <property name="LOG_ARCHIVE" value="${LOG_PATH}/archive" />
+    <property resource="application.properties" />
+    <property resource="setting.properties" />
+    <timestamp key="timestamp-by-second" datePattern="yyyyMMdd'T'HHmmss"/>
+    <appender name="Console-Appender" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+    <pattern>[%magenta(${spring.application.name})][%magenta(%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS})] %highlight(%-5level) [%10thread] %green(%-40logger{36}) - %msg%n</pattern>
+      <!-- <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} %green[%thread] %highlight%-5level %logger{36} | %msg%n</pattern> -->
+      <!-- <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} | %thread | %5p | %logger{25} | %12(ID: %8mdc{id}) | %m%n</pattern> -->
+      </encoder>
+    </appender>
+    
+     <appender name="aiAppender" 
+      class="com.microsoft.applicationinsights.logback.ApplicationInsightsAppender">
+        <instrumentationKey>${azure.app.insight.instrumentation-key}</instrumentationKey>
+    </appender>
+    <root level="debug">
+      <appender-ref ref="aiAppender" />
+    </root>
+    
+    <appender name="File-Appender" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_PATH}/logfile-${timestamp-by-second}.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n</pattern>
+            <outputPatternAsHeader>true</outputPatternAsHeader>
+        </encoder>
+    </appender>
+    <appender name="RollingFile-Appender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/rollingfile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_ARCHIVE}/rollingfile.log%d{yyyy-MM-dd}.log</fileNamePattern>
+          <maxHistory>30</maxHistory>
+        <totalSizeCap>1MB</totalSizeCap>
+            
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd} | %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} | %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="Async-Appender" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="RollingFile-Appender" />
+    </appender>
+    <logger name="com.solum.app"  level="debug" additivity="false">
+        <appender-ref ref="Console-Appender" />
+        <appender-ref ref="File-Appender" />
+        <appender-ref ref="Async-Appender" />
+        <appender-ref ref="aiAppender"/>
+    </logger>
+    <root>
+        <appender-ref ref="Console-Appender" />
+        
+    </root>
+</configuration>
+
+
+
+
+<!-- Hierarchy of  logging levels are as follows in Highest to Lowest order :
+TRACE
+DEBUG
+INFO
+WARN
+ERROR
+FATAL
+OFF
+ -->

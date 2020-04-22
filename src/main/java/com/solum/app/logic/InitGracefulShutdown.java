@@ -5,8 +5,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.catalina.connector.Connector;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.embedded.tomcat.TomcatConnectorCustomizer;
 import org.springframework.context.ApplicationListener;
@@ -14,9 +12,10 @@ import org.springframework.context.event.ContextClosedEvent;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
 public class InitGracefulShutdown implements TomcatConnectorCustomizer, ApplicationListener<ContextClosedEvent> {
 
-	private static final Logger log = LoggerFactory.getLogger(InitGracefulShutdown.class);
 
 	@Autowired
 	private Env env;
@@ -25,6 +24,7 @@ public class InitGracefulShutdown implements TomcatConnectorCustomizer, Applicat
 
 	@Override
 	public void customize(Connector connector) {
+		System.out.println("conector called ...........................");
 		this.connector = connector;
 	}
 
@@ -63,5 +63,9 @@ public class InitGracefulShutdown implements TomcatConnectorCustomizer, Applicat
 	public void setEnv(Env env) {
 		this.env = env;
 	}
+	
+	
+	
+	
 
 }
